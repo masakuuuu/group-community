@@ -69,7 +69,7 @@ server = HTTPServer(('', 8000), SimpleHTTPRequestHandler)
 server.serve_forever()
 ```
 
-- TTPServer の起動
+- HTTPServer の起動
 
 app.py をコマンドプロンプト（PowerShell 等）で実行
 
@@ -106,7 +106,7 @@ server = HTTPServer(('', 8000), HelloServerHandler)
 server.serve_forever()
 ```
 
-## 3. HTML に Python で処理した値を挿入する
+## 3. Python で指定した HTML を返す
 
 - app.py を修正
 
