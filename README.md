@@ -5,5 +5,7 @@
 
 ## 使用技術
 API - Flask(Python フレームワーク)
+
 フロント - Vue.js
+
 DB - GoogleCloudPlatform
