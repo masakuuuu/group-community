@@ -12,3 +12,10 @@ h1 {
 p {
   font-size: 14pt;
 }
+
+p.id{
+  font-size:15px;
+       font-display: true;
+       
+
+}
