@@ -145,7 +145,7 @@ export default {
   },
   methods: {
     getBooks() {
-      const path = 'http://localhost:5000/books';
+      const path = 'https://group-news.herokuapp.com/books';
       axios
         .get(path)
         .then(res => {
@@ -157,7 +157,7 @@ export default {
         });
     },
     addBook(payload) {
-      const path = 'http://localhost:5000/books';
+      const path = 'https://group-news.herokuapp.com/books';
       axios
         .post(path, payload)
         .then(() => {
@@ -214,7 +214,7 @@ export default {
       this.updateBook(payload, this.editForm.id);
     },
     updateBook(payload, bookID) {
-      const path = `http://localhost:5000/books/${bookID}`;
+      const path = `https://group-news.herokuapp.com/books/${bookID}`;
       axios
         .put(path, payload)
         .then(() => {
@@ -235,7 +235,7 @@ export default {
       this.getBooks(); // why?
     },
     removeBook(bookID) {
-      const path = `http://localhost:5000/books/${bookID}`;
+      const path = `https://group-news.herokuapp.com/books/${bookID}`;
       axios
         .delete(path)
         .then(() => {
