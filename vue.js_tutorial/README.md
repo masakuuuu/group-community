@@ -22,7 +22,7 @@ sudo heroku login
 sudo heroku container:login
 
 ## Docker イメージのビルドおよびプッシュ
-udo heroku container:push -a group-news web
+sudo heroku container:push -a group-news web
 
 ## herokuにプッシュしたDocker イメージの起動
 sudo heroku container:release -a group-news web
